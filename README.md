@@ -1,3 +1,11 @@
+![GitHub stars](https://img.shields.io/github/stars/vijaylabx/portfolio_project?style=social)
+![GitHub forks](https://img.shields.io/github/forks/vijaylabx/portfolio_project?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/vijaylabx/portfolio_project)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vijaylabx/portfolio_project)
+![GitHub issues](https://img.shields.io/github/issues/vijaylabx/portfolio_project)
+![GitHub license](https://img.shields.io/github/license/vijaylabx/portfolio_project)
+![GitHub repo size](https://img.shields.io/github/repo-size/vijaylabx/portfolio_project)
+
 # 🌐 Personal Portfolio Website
 
 ❤️ A modern, responsive and dynamic **Portfolio Website**  built using React + Vite.  
