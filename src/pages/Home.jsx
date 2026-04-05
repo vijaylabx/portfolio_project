@@ -44,7 +44,7 @@ export default function Home() {
                         <div className="relative aspect-square rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 border border-outline-variant/20">
                             <img alt="Vijay"
                                 className="w-full h-full object-cover transform scale-105 group-hover:scale-100 transition-transform duration-700"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnvxUQVBX8WxA8HgYhsupL4rC1eBHgI_q38_wTgqk41L4CLZ8FgirLx7883CQAdmPvP6jibalqUP2s5MOSELDYDj1OkmhV-gEeHI7snv0TpSB73GrwdM1O7N6hafz1sMuIm5-9ACxpQESIyqmJr9A-rvUO7u2XgP-z7gP0MV0ZqVfG0rfZeVkB-JyKfVXdl3jAkSZ7yE8DFldzMAmp22GMoCfMnPPpRM5lcn6ApnAqACwdA8uxFGRWMNhIcI0GMSn_deHOhFdjTuY" />
+                                src="src\images\myimages.jpeg" />
                         </div>
                         <div className="absolute bottom-6 -right-6 glass-card p-6 rounded-lg hidden md:block">
                             <div className="space-y-1">
@@ -56,11 +56,13 @@ export default function Home() {
                     <div className="space-y-8">
                         <div className="space-y-4">
                             <span className="font-mono text-primary text-sm tracking-[0.2em] uppercase">// 01. Identity</span>
-                            <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tight">Fusing Precision with <span className="text-secondary italic">Creativity</span>.</h2>
+                            <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tight">Crafting with Precision, Driven by <span className="text-secondary italic">Creativity</span>.</h2>
                         </div>
                         <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
                             <p>
-                                I operate at the edge of development and security. With a foundation in the <span className="text-on-surface font-semibold">MERN stack</span>, I don't just build applications; I fortify them. My approach treats every line of code as a potential entry point and every UI element as a strategic interaction.
+                                I build modern web applications with a strong focus on both development and cybersecurity. Using the  
+                                <span className="text-on-surface font-semibold"> MERN stack</span>, I create fast, clean, and user-friendly 
+                                interfaces while also identifying and securing potential vulnerabilities.
                             </p>
                             <p>
                                 From pen-testing enterprise architectures to crafting seamless React interfaces, my goal is to deliver digital assets that are as resilient as they are beautiful.
@@ -86,8 +88,9 @@ export default function Home() {
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-20 space-y-4">
                     <span className="font-mono text-primary text-xs tracking-[0.3em] uppercase">CHRONOLOGY</span>
-                    <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">Skillset Log</h2>
+                    <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">Skill set Log</h2>
                 </div>
+                {/* MERN Stack */}
                 <div className="relative">
                     <div className="absolute left-1/2 top-0 bottom-0 w-[1px] timeline-line -translate-x-1/2 hidden md:block"></div>
                     <div className="space-y-16 relative">
@@ -112,10 +115,13 @@ export default function Home() {
                                     <div className="flex flex-wrap gap-2">
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">REACT_DOM</span>
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">NODE_SECURE</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline"> Express.js</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline"> MongoDB</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {/* Cyber Security */}
 
                         <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-8 md:gap-0">
                             <div className="w-full md:w-[45%] text-center md:text-left">
@@ -138,10 +144,13 @@ export default function Home() {
                                     <div className="flex flex-wrap gap-2 justify-end">
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">PENTEST_INIT</span>
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">AUDIT_LOGS</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Application Security</span>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {/* JAVA */}
 
                         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0">
                             <div className="w-full md:w-[45%] text-center md:text-right">
@@ -162,13 +171,15 @@ export default function Home() {
                                         Building resilient enterprise applications with a focus on multithreading, microservices, and secure transaction handling.
                                     </p>
                                     <div className="flex flex-wrap gap-2">
-                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">JVM_OPTIMIZE</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Android Deve. </span>
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">SPRING_BOOT</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Big Data Technology</span>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        {/* C AND C++ */}
                         <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-8 md:gap-0">
                             <div className="w-full md:w-[45%] text-center md:text-left">
                                 <div className="space-y-1 mb-4">
@@ -190,6 +201,64 @@ export default function Home() {
                                     <div className="flex flex-wrap gap-2 justify-end">
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">MEM_MANAGEMENT</span>
                                         <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">STD_LIB</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         {/* Python */}
+
+                        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0">
+                            <div className="w-full md:w-[45%] text-center md:text-right">
+                                <div className="space-y-1 mb-4">
+                                    <span className="font-mono text-tertiary text-[10px] uppercase tracking-widest">PROFICIENT // SYSTEMS</span>
+                                    <h3 className="text-3xl font-headline font-bold">Python</h3>
+                                    <p className="text-on-surface-variant text-sm font-mono uppercase">Red Hat Hacking</p>
+                                </div>
+                            </div>
+                            <div className="relative z-10">
+                                <div className="w-12 h-12 rounded-lg bg-surface-container-high border border-tertiary/40 flex items-center justify-center shadow-[0_0_20px_rgba(156,255,147,0.2)]">
+                                    <span className="material-symbols-outlined text-tertiary" data-icon="coffee">coffee</span>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-[45%]">
+                                <div className="glass-card p-6 rounded-xl border-l-2 border-tertiary/30">
+                                    <p className="text-on-surface-variant text-sm leading-relaxed mb-4">
+                                        Building scalable Python applications with a focus on concurrency, microservices, and secure data handling.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2">
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Web Scripting</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Hacking</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">AI & ML</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* DevOps & Cloud */}
+                        
+                        <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-8 md:gap-0">
+                            <div className="w-full md:w-[45%] text-center md:text-left">
+                                <div className="space-y-1 mb-4">
+                                    <span className="font-mono text-primary text-[10px] uppercase tracking-widest">Deployment & Scaling</span>
+                                    <h3 className="text-3xl font-headline font-bold">DevOps & Cloud</h3>
+                                    <p className="text-on-surface-variant text-sm font-mono uppercase">Low-Level Operations</p>
+                                </div>
+                            </div>
+                            <div className="relative z-10">
+                                <div className="w-12 h-12 rounded-lg bg-surface-container-high border border-primary/40 flex items-center justify-center shadow-[0_0_20px_rgba(143,245,255,0.2)]">
+                                    <span className="material-symbols-outlined text-primary" data-icon="memory">memory</span>
+                                </div>
+                            </div>
+                            <div className="w-full md:w-[45%]">
+                                <div className="glass-card p-6 rounded-xl border-r-2 border-primary/30 text-right">
+                                    <p className="text-on-surface-variant text-sm leading-relaxed mb-4">
+                                       Deploying and managing scalable applications with CI/CD, Docker, and cloud platforms while ensuring security and high availability.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 justify-end">
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">CI/CD</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Monitoring</span>
+                                        <span className="px-2 py-1 bg-surface-bright text-[9px] font-mono rounded text-outline">Vercel/AWS</span>
+
                                     </div>
                                 </div>
                             </div>
@@ -273,13 +342,13 @@ export default function Home() {
                 <div className="space-y-4">
                     <h2 className="text-4xl md:text-5xl font-headline font-bold tracking-tight uppercase">Ready to initiate?</h2>
                     <p className="text-on-surface-variant max-w-2xl mx-auto text-lg leading-relaxed">
-                        Currently accepting select projects for Q3 2024. Let's build something that stands the test of both users and threats.
+                        Currently accepting select projects for Q3 2026. Let's build something that stands the test of both users and threats.
                     </p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-4">
                     <a className="flex items-center gap-3 px-8 py-4 bg-surface-container-highest border border-outline-variant/30 rounded hover:border-primary transition-all group" href="#">
                         <span className="material-symbols-outlined group-hover:text-primary" data-icon="code">code</span>
-                        <span className="font-headline font-bold uppercase tracking-widest text-sm">View GitHub Source</span>
+                        <span className="font-headline font-bold uppercase tracking-widest text-sm"> <a href="https://github.com/vijaylabx/portfolio_project">View GitHub Source</a> </span>
                     </a>
                     <a className="flex items-center gap-3 px-8 py-4 bg-surface-container-highest border border-outline-variant/30 rounded hover:border-secondary transition-all group" href="#">
                         <span className="material-symbols-outlined group-hover:text-secondary" data-icon="send">send</span>
