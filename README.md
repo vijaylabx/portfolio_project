@@ -1,3 +1,17 @@
+![GitHub stars](https://img.shields.io/github/stars/vijaylabx/portfolio_project?style=social)
+![GitHub forks](https://img.shields.io/github/forks/vijaylabx/portfolio_project?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/vijaylabx/portfolio_project)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vijaylabx/portfolio_project)
+![GitHub issues](https://img.shields.io/github/issues/vijaylabx/portfolio_project)
+![GitHub license](https://img.shields.io/github/license/vijaylabx/portfolio_project)
+![GitHub repo size](https://img.shields.io/github/repo-size/vijaylabx/portfolio_project)
+<br>
+![Visitor Count](https://komarev.com/ghpvc/?username=vijaylabx&repo=portfolio_project&color=blue)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+
 # 🌐 Personal Portfolio Website
 
 ❤️ A modern, responsive and dynamic **Portfolio Website**  built using React + Vite.  
