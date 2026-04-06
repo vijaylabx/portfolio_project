@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main className="pt-24">
+    <main className="pt-2">
         {/* Hero Section */}
-        <section className="relative min-h-[921px] flex flex-col items-center justify-center px-6 overflow-hidden">
+        <section className="relative min-h-[750px] flex flex-col items-center justify-center px-6 overflow-hidden">
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-container/10 blur-[120px] rounded-full -z-10"></div>
             <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary-container/10 blur-[120px] rounded-full -z-10"></div>
             <div className="max-w-4xl w-full text-center space-y-8">
