@@ -44,7 +44,7 @@ export default function Home() {
                         <div className="relative aspect-square rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 border border-outline-variant/20">
                             <img alt="Vijay"
                                 className="w-full h-full object-cover transform scale-105 group-hover:scale-100 transition-transform duration-700"
-                                src="public\images\myimages.jpeg" />
+                                src="/images/myimages.jpeg" />
                         </div>
                         <div className="absolute bottom-6 -right-6 glass-card p-6 rounded-lg hidden md:block">
                             <div className="space-y-1">
